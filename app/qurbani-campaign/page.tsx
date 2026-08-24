@@ -53,4 +53,4 @@ export default function QurbaniCampaignPage() {
       </section>
     </>
   );
-}.
+}
