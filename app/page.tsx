@@ -100,7 +100,7 @@ const TRUST_ITEMS = [
 ];
 
 const UPDATES = [
-  { src: "/photos-3-001 (9)/roshni.jpg", alt: "Ribbon-cutting for a new ROSHNI learning centre", cat: "News", title: "New ROSHNI Centre Opens in Malir", date: "July 2, 2026" },
+  { src: "/images/program-roshni.jpg", alt: "Ribbon-cutting for a new ROSHNI learning centre", cat: "News", title: "New ROSHNI Centre Opens in Malir", date: "July 2, 2026" },
   { src: "/photos-3-001 (9)/quarbani.webp", alt: "Volunteers preparing for the Qurbani campaign", cat: "Campaign", title: "Qurbani 2026 Registrations Now Open", date: "June 28, 2026" },
   { src: "/images/update-3.jpg", alt: "A free medical camp held in a rural community", cat: "Event", title: "Free Medical Camp Reaches 600 Patients", date: "June 15, 2026" },
 ];
