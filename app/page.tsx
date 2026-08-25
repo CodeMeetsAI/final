@@ -147,7 +147,7 @@ export default function HomePage() {
           <div className="reveal relative h-[340px] lg:h-[520px]">
             <div className="absolute inset-0 overflow-hidden rounded-[220px_220px_20px_20px] border-4 border-white/10 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.45)]">
               <Image
-                src="/Photos-3-001/herosection1.jpg"
+                src="/images/herosection1.jpg"
                 alt="A Yaqeen Welfare Foundation field team member with schoolchildren in Sindh, Pakistan"
                 width={800}
                 height={1000}
