@@ -61,21 +61,21 @@ const IMPACT_STATS = [
 
 const STORIES = [
   {
-    src: "/Photos-3-001/ayeshaclass.jpg",
+    src: "/images/ayeshaclass.jpg",
     alt: "Ayesha, a student supported by the Parho Pakistan program",
     tag: "Education",
     title: "Ayesha's Classroom, Rebuilt",
     text: "Out of school for two years, Ayesha rejoined through a Parho Pakistan non-formal learning centre and now leads her class in reading.",
   },
   {
-    src: "/photos-3-001 (9)/siti.jpg",
+    src: "/images/story-community.jpg",
     alt: "Rukhsana, a graduate of the SALEEQA vocational training program",
     tag: "Women Empowerment",
     title: "Rukhsana's Stitching Business",
     text: "A SALEEQA vocational training graduate, Rukhsana now runs a home-based tailoring unit supporting her family of five.",
   },
   {
-    src: "/photos-3-001 (9)/falah.jpg",
+    src: "/images/herosection1.jpg",
     alt: "A family that received emergency relief support",
     tag: "Community Support",
     title: "A Family, Steadied by FALAH",
@@ -101,7 +101,7 @@ const TRUST_ITEMS = [
 
 const UPDATES = [
   { src: "/images/program-roshni.jpg", alt: "Ribbon-cutting for a new ROSHNI learning centre", cat: "News", title: "New ROSHNI Centre Opens in Malir", date: "July 2, 2026" },
-  { src: "/photos-3-001 (9)/quarbani.webp", alt: "Volunteers preparing for the Qurbani campaign", cat: "Campaign", title: "Qurbani 2026 Registrations Now Open", date: "June 28, 2026" },
+  { src: "/images/quarbani.webp", alt: "Volunteers preparing for the Qurbani campaign", cat: "Campaign", title: "Qurbani 2026 Registrations Now Open", date: "June 28, 2026" },
   { src: "/images/update-3.jpg", alt: "A free medical camp held in a rural community", cat: "Event", title: "Free Medical Camp Reaches 600 Patients", date: "June 15, 2026" },
 ];
 
