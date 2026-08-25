@@ -54,7 +54,7 @@ export default function AboutPage() {
       <section id="story" className="py-20 sm:py-24">
         <Container>
           <AboutBlock
-            imageSrc="/photos-3-001 (9)/story.jpg"
+            imageSrc="/images/story.webp"
             imageAlt="Yaqeen Welfare Foundation staff planning a community program"
             eyebrow="Our Story"
             title="Built from one classroom, grown into a movement"
