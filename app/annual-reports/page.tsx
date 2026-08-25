@@ -10,9 +10,21 @@ export const metadata = {
 };
 
 const REPORTS = [
-  { title: "Annual Report 2025–26", text: "Full-year program outcomes, financials and beneficiary data for FY 2025–26." },
-  { title: "Annual Report 2024–25", text: "Full-year program outcomes, financials and beneficiary data for FY 2024–25." },
-  { title: "Annual Report 2023–24", text: "Full-year program outcomes, financials and beneficiary data for FY 2023–24." },
+  {
+    title: "Annual Impact Report 2025–26",
+    text: "Full-year program outcomes, financials and beneficiary data for FY 2025–26.",
+    href: "/Yaqeen_Welfare_Foundation_Annual_Impact_Report_2025_26.pdf",
+  },
+  {
+    title: "Audit Report 2025",
+    text: "Independent audit report covering the foundation's accounts for FY 2025.",
+    href: "/Audit%20Report%202025.pdf",
+  },
+  {
+    title: "Audited Account 2024",
+    text: "Independent audited account statement for FY 2024, reviewed by a chartered accountancy firm.",
+    href: "/YWF%20-%20Audited%20account%202024.pdf",
+  },
 ];
 
 export default function AnnualReportsPage() {
@@ -44,7 +56,7 @@ export default function AnnualReportsPage() {
                 </span>
                 <h3 className="mb-2 text-[16px] font-bold text-ink">{r.title}</h3>
                 <p className="mb-5 text-[13.8px] text-slate-muted">{r.text}</p>
-                <Button href="#" variant="outlineNavy" small>
+                <Button href={r.href} variant="outlineNavy" small>
                   View Report
                 </Button>
               </div>

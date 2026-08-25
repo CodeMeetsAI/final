@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Icon from "./Icon";
 
 const EDUCATION = [
@@ -143,19 +144,15 @@ export default function Header() {
       <header className="sticky top-0 z-50 border-b border-sand bg-white/95 backdrop-blur">
         <div className="mx-auto flex h-[82px] max-w-[1180px] items-center justify-between px-4 xl:px-6">
           
-          {/* Logo Area */}
-          <Link href="/" className="flex flex-shrink-0 items-center gap-2 xl:gap-3">
-            <span className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-brand-800">
-              <Icon name="home" className="h-5 w-5 text-white" />
-            </span>
-            <div className="flex flex-col justify-center">
-              <span className="font-display text-[15px] xl:text-[17px] font-bold leading-none text-brand-900 whitespace-nowrap">
-                Yaqeen Welfare
-              </span>
-              <span className="mt-1 font-data text-[9.5px] xl:text-[10.5px] font-semibold uppercase tracking-[0.1em] text-accent-600 leading-none">
-                Foundation
-              </span>
-            </div>
+          {/* Logo */}
+          <Link href="/" className="flex flex-shrink-0 items-center">
+            <Image
+              src="/images/logo.jpg"
+              alt="Yaqeen Welfare Foundation"
+              width={414}
+              height={483}
+              className="h-[52px] w-auto rounded-lg"
+            />
           </Link>
 
           <nav className="hidden flex-1 justify-center lg:flex">
@@ -220,7 +217,13 @@ export default function Header() {
         }`}
       >
         <div className="mb-6 flex items-center justify-between">
-          <span className="font-display text-lg font-bold text-brand-900">Yaqeen Welfare</span>
+          <Image
+            src="/images/logo.jpg"
+            alt="Yaqeen Welfare Foundation"
+            width={414}
+            height={483}
+            className="h-12 w-auto rounded-lg"
+          />
           <button aria-label="Close menu" onClick={() => setOpen(false)} className="flex items-center justify-center">
             <Icon name="close" className="h-6 w-6 text-ink" />
           </button>
