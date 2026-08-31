@@ -12,10 +12,10 @@ export const metadata = {
 };
 
 const HELP_ITEMS = [
-  { title: "Sponsor a Child", amount: "Rs. 2,500 / mo", text: "Covers tuition, books and uniform for one child for a full month.", href: "/sponsor-child" },
-  { title: "Support Healthcare", amount: "Rs. 5,000", text: "Funds a free medical camp consultation package for 10 patients." },
-  { title: "Empower Women", amount: "Rs. 8,000", text: "Sponsors a full SALEEQA vocational training course for one woman.", href: "/saleeqa" },
-  { title: "Emergency Relief", amount: "Rs. 3,000", text: "Provides a ration pack and clean water kit for one family in crisis." },
+  { title: "Sponsor a Child", amount: "Rs. 2,500 / mo", text: "Covers tuition, books and uniform for one child for a full month.", href: "/sponsor-child", icon: "star" as const, tone: "amber" as const },
+  { title: "Support Healthcare", amount: "Rs. 5,000", text: "Funds a free medical camp consultation package for 10 patients.", icon: "heart" as const, tone: "rose" as const },
+  { title: "Empower Women", amount: "Rs. 8,000", text: "Sponsors a full SALEEQA vocational training course for one woman.", href: "/saleeqa", icon: "people" as const, tone: "violet" as const },
+  { title: "Emergency Relief", amount: "Rs. 3,000", text: "Provides a ration pack and clean water kit for one family in crisis.", icon: "home" as const, tone: "sky" as const },
 ];
 
 const BANK_INFO = [

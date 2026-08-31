@@ -34,6 +34,7 @@ const ABOUT_LINKS = [
   { href: "/about#story", label: "Our Story" },
   { href: "/about#vmv", label: "Vision, Mission & Values" },
   { href: "/about#chairman", label: "Chairman's Message" },
+  { href: "/team", label: "Our Team" },
   { href: "/about#governance", label: "Governance & Leadership" },
   { href: "/about#partners", label: "Partners & Collaborations" },
   { href: "/about#legal", label: "Legal Status & Registration" },
